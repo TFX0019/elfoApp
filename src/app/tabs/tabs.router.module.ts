@@ -34,6 +34,24 @@ const routes: Routes = [
           }
         ]
       },
+            {
+        path: 'cart',
+        children: [
+          {
+            path: '',
+            loadChildren: './pages/cart/cart.module#CartPageModule'
+          }
+        ]
+      },
+            {
+        path: 'profile',
+        children: [
+          {
+            path: '',
+            loadChildren: './pages/profile/profile.module#ProfilePageModule'
+          }
+        ]
+      },
       {
         path: '',
         redirectTo: '/tabs/tab1',

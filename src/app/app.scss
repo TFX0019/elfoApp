@@ -4,3 +4,8 @@
 // styles are for the entire app and not just one component. Additionally, this 
 // file can hold Sass mixins, functions, and placeholder classes to be imported 
 // and used throughout the application.
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+$montserrat: 'Montserrat', sans-serif;
+.montserrat {
+	font-family: $montserrat;
+}

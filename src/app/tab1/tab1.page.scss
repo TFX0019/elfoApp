@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+$montserrat: 'Montserrat', sans-serif;
 .welcome-card ion-img {
   max-height: 35vh;
   overflow: hidden;
+}
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	h5 {
+		text-transform: uppercase;
+		margin-right: 15px;
+		color: rgb(149,149,149);
+	}
+	a {
+		font-size: small;
+		text-decoration: none;
+		color: #4abea9;
+	}
+}
+.montserrat {
+	font-family: $montserrat;
+}
+.banner {
+	font-family: $montserrat;
+	font-size: small;
+	background: url("../../assets/img/home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
